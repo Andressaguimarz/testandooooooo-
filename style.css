@@ -1,3 +1,11 @@
 .tabela-produtos{
-    background-color: blue;
+    background-color: #ff73cc;
 }
+.tabela-miaumiau{
+    background-color: rgb(251, 245, 236);
+}
+
+   th{ 
+    border:solid 1px;}
+   td{ border:solid 1px;}
+    
