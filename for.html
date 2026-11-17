@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conten t="width=device-width, initial-scale=1.0">
+    <title> Formulário</title>
+    <style>
+        #idade {
+            background-color: rgb(104, 104, 104);
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+       <label for="nome_completo">Nome completo:</label> 
+        <input type="text" name="nome_completo" id="nome_completo" placeholder="Digite seu nome completo">
+
+        <label for="idade">sua idade:</label>
+        <input type="text" name="idade" id="idade" placeholder="Digite sua idade">
+
+        <label for="dt_nascimento">Data de nascimento</label>
+        <input type="date" id="dt_nascimento" name="dt_nascimento">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+         
+        <label for="uf">Unidade federativa</label>
+        <select name="uf" id="uf">
+            <option value="sp">SP</option>
+            <option value="sc">SC</option>
+
+        </select>
+
+        <label for="senha"> senha </label>
+        <input type="password" id="senha" name="senha">
+        </fieldset>
+
+        <fieldset>
+            <legend>genero</legend>
+            <label for="masculino">masculino</label>
+            <input type="radio" id="masculino" name="genero" value="M">
+
+            <label for="feminino">feminino</label>
+            <input type="radio" id="feminino" name="genero" value="F">
+        </fieldset>
+
+        <fieldset>
+            <legend>Cursos</legend>
+            <label for="ti"> TI </label>
+            <input type="checkbox" id="ti" name="cursos" value="TI">
+
+            <label for="mecanica-a"> Mecânica aeronáutica</label>
+            <input type="checkbox" id="mecanica-a" name="cursos" value="mecanica-a">
+        </fieldset>
+<fieldset>
+         <input type="submit" value="Enviar">
+         </fieldset>
+    </form>
+</body>
+</html>
